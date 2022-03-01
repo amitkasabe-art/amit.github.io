@@ -1,0 +1,50 @@
+$primary:#BF2441;
+$secondary:#A62655;
+$turnary:#73265E;
+$violet:#3E328C;
+$black:#0D0D0D;
+$body:#c0d4f5;
+body
+{
+    background-color:$body;
+}
+.main-container
+    {
+        height:100vh;
+    }
+.row 
+{
+    .left
+    {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+    }
+    
+}
+// .right-content
+// {
+//     height:500px;
+//     width:500px;
+// }
+// media query 
+@media screen and (max-width:580px)
+{
+    body
+    {
+        .row
+        {
+            .left 
+            {
+                height:50vh;
+            }
+            .right 
+            {
+                height:50vh;
+            }
+        }
+    }
+}
+// $font-family:Signika Negative', sans-serif;
+

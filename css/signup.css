@@ -1,0 +1,33 @@
+body {
+  background-color: #c0d4f5;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.row .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 580px) {
+  body .row .left {
+    height: 50vh;
+  }
+  body .row .right {
+    height: 50vh;
+  }
+}
+/*# sourceMappingURL=signup.css.map */
